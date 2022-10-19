@@ -1,0 +1,235 @@
+{
+  "messageType": "DECLARATIVE_CARDS",
+  "version": "2.0.0",
+  "cards": [
+    {
+      "elements": [
+        {
+          "type": "GridGroup",
+          "params": {
+            "columnSize": 1,
+            "padding": {
+              "inline": "three",
+              "block": "three"
+            }
+          },
+          "items": [
+            {
+              "type": "GridGroup",
+              "params": {
+                "border": ["blockend"],
+                "padding": {
+                  "blockend": "two"
+                }
+              },
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "value": "OneKeyCash",
+                  "params": {
+                    "size": 200,
+                    "weight": "medium"
+                  }
+                },
+                {
+                  "type": "GridGroup",
+                  "params": {
+                    "columnSize": 12,
+                    "space": "one"
+                  },
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "value": "Rewards Summary",
+                      "params": {
+                        "colSpan": "8",
+                        "size": 400,
+                        "weight": "medium"
+                      }
+                    },
+                    {
+                      "type": "TextBlock",
+                      "value": "(in USD)",
+                      "params": {
+                        "colSpan": "3",
+                        "size": 300,
+                        "weight": "medium"
+                      }
+                    },
+                    {
+                      "type": "MoreInfoTrigger",
+                      "text": "",
+                      "params": {
+                        "colSpan": "1",
+                        "iconName": "info_outline",
+                        "iconSize": "SMALL",
+                        "iconDescription": "description"
+                      },
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "value": "OneKeyCash is not redeemable for cash and can only be used on eligible bookings."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "GridGroup",
+              "params": {
+                "columnSize": 12,
+                "space": "one",
+                "padding": { "block": "two" },
+                "border": ["blockend"]
+              },
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "value": "OneKeyCash:",
+                  "params": {
+                    "colSpan": "9",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "25.00",
+                  "params": {
+                    "colSpan": "3",
+                    "size": 300,
+                    "weight": "medium",
+                    "align": "right"
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Base:",
+                  "params": {
+                    "colSpan": "9",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "15.00",
+                  "params": {
+                    "colSpan": "3",
+                    "size": 300,
+                    "weight": "medium",
+                    "align": "right"
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Bonus:",
+                  "params": {
+                    "colSpan": "9",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "10.00",
+                  "params": {
+                    "colSpan": "3",
+                    "size": 300,
+                    "weight": "medium",
+                    "align": "right"
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Status:",
+                  "params": {
+                    "colSpan": "9",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Pending",
+                  "params": {
+                    "colSpan": "3",
+                    "size": 300,
+                    "weight": "medium",
+                    "align": "right"
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Confirmed by:",
+                  "params": {
+                    "colSpan": "8",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "07/12/2023",
+                  "params": {
+                    "colSpan": "4",
+                    "size": 300,
+                    "weight": "medium",
+                    "align": "right"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "InlineGroup",
+              "params": {
+                "space": "one",
+                "border": ["blockstart"],
+                "padding": { "blockstart": "two", "blockend": "one" }
+              },
+              "items": [
+                {
+                  "type": "Icon",
+                  "value": "loyalty",
+                  "params": {
+                    "margin": { "inlineend": "one" },
+                    "size": "EXTRA_SMALL"
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "You are 7 trip elements away from the Platinum tier",
+                  "params": {
+                    "size": 200
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TextBlock",
+              "value": "Check rewards activity on your rewards page for more info.",
+              "params": {
+                "size": 200,
+                "padding": { "blockstart": "two", "blockend": "one" }
+              }
+            },
+            {
+              "type": "Button",
+              "value": "SECONDARY",
+              "text": "See rewards page",
+              "items": [
+                {
+                  "type": "Icon",
+                  "value": "open_in_new"
+                }
+              ],
+              "params": {
+                "isFullWidth": true,
+                "size": "SMALL",
+                "url": "www.expedia.com",
+                "window": "new"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

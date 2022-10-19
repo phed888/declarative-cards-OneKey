@@ -1,0 +1,32 @@
+{
+  "messageType": "DECLARATIVE_CARDS",
+  "version": "2.0.0",
+  "cards": [
+    {
+      "elements": [
+        {
+          "type": "GridGroup",
+          "params": {
+            "columnSize": 1,
+            "isFixedToBottom": false,
+            "direction": "column",
+            "padding": { "block": "three", "inline": "three" }
+          },
+          "items": [
+            {
+              "type": "TextBlock",
+              "value": "Here is a header",
+              "params": {
+                "colSpan": 1,
+                "textType": "heading",
+                "keyWords": [],
+                "padding": { "blockend": "two" },
+                "border": ["blockend"]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

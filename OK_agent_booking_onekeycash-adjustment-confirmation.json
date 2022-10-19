@@ -1,0 +1,156 @@
+{
+  "messageType": "DECLARATIVE_CARDS",
+  "version": "2.0.0",
+  "cards": [
+    {
+      "elements": [
+        {
+          "type": "GridGroup",
+          "params": {
+            "columnSize": 1,
+            "padding": {
+              "inline": "three",
+              "block": "three"
+            }
+          },
+          "items": [
+            {
+              "type": "GridGroup",
+              "params": {
+                "border": ["blockend"],
+                "padding": {
+                  "blockend": "two"
+                }
+              },
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "value": "OneKeyCash",
+                  "params": {
+                    "size": 200,
+                    "weight": "medium"
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Rewards Adjustment",
+                  "params": {
+                    "size": 400,
+                    "weight": "medium"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "GridGroup",
+              "params": {
+                "padding": {
+                  "block": "two"
+                }
+              },
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "value": "Adjustment type:",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Adding",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 300,
+                    "weight": "medium",
+                    "padding": { "blockend": "one" }
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Reason for adjustment:",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Rewards correction for system error",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 300,
+                    "weight": "medium",
+                    "padding": { "blockend": "one" }
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "OneKeyCash amount:",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "InlineGroup",
+                  "params": {
+                    "isFixedToBottom": false,
+                    "direction": "column"
+                  },
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "value": "15.00 USD",
+                      "params": {
+                        "colSpan": "all",
+                        "size": 300,
+                        "weight": "medium",
+                        "padding": { "blockend": "one" }
+                      }
+                    },
+                    {
+                      "type": "MoreInfoTrigger",
+                      "text": "",
+                      "params": {
+                        "colSpan": "1",
+                        "iconName": "info_outline",
+                        "iconSize": "SMALL",
+                        "iconDescription": "description"
+                      },
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "value": "OneKeyCash is not redeemable for cash and can only be used on eligible bookings."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Notes:",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "The traveler never received points for this booking.",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 300,
+                    "weight": "medium",
+                    "padding": { "blockend": "one" }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

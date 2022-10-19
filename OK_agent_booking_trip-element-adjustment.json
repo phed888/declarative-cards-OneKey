@@ -1,0 +1,149 @@
+{
+  "messageType": "DECLARATIVE_CARDS",
+  "version": "2.0.0",
+  "cards": [
+    {
+      "elements": [
+        {
+          "type": "GridGroup",
+          "params": {
+            "columnSize": 1,
+            "padding": {
+              "inline": "three",
+              "block": "three"
+            }
+          },
+          "items": [
+            {
+              "type": "GridGroup",
+              "params": {
+                "border": ["blockend"],
+                "padding": {
+                  "blockend": "two"
+                }
+              },
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "value": "One Key",
+                  "params": {
+                    "size": 200,
+                    "weight": "medium"
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Trip Element Adjustment",
+                  "params": {
+                    "size": 400,
+                    "weight": "medium"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "GridGroup",
+              "params": {
+                "padding": {
+                  "block": "two"
+                }
+              },
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "value": "Adjustment type:",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Adding",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 300,
+                    "weight": "medium",
+                    "padding": {"blockend": "one"}
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Reason for adjustment:",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Other",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 300,
+                    "weight": "medium",
+                    "padding": {"blockend": "one"}
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Other reason:",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Lorem ipsum dolor sit amet",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 300,
+                    "weight": "medium",
+                    "padding": {"blockend": "one"}
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Trip elements to be adjusted:",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "1",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 300,
+                    "weight": "medium",
+                    "padding": {"blockend": "one"}
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Notes:",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Lorem ipsum dolor sit amet",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 300,
+                    "weight": "medium",
+                    "padding": {"blockend": "one"}
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

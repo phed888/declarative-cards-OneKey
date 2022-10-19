@@ -1,0 +1,113 @@
+{
+  "messageType": "DECLARATIVE_CARDS",
+  "version": "2.0.0",
+  "cards": [
+    {
+      "elements": [
+        {
+          "type": "GridGroup",
+          "params": {
+            "columnSize": 1,
+            "padding": {
+              "inline": "three",
+              "block": "three"
+            }
+          },
+          "items": [
+            {
+              "type": "GridGroup",
+              "params": {
+                "border": ["blockend"],
+                "padding": {
+                  "blockend": "two"
+                }
+              },
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "value": "One Key",
+                  "params": {
+                    "size": 200,
+                    "weight": "medium"
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Membership Status Adjustment",
+                  "params": {
+                    "size": 400,
+                    "weight": "medium"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "GridGroup",
+              "params": {
+                "padding": {
+                  "block": "two"
+                }
+              },
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "value": "Requested status:",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Gold",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 300,
+                    "weight": "medium",
+                    "padding": {"blockend": "one"}
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Reason for adjustment:",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Rewards correction for system error",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 300,
+                    "weight": "medium",
+                    "padding": {"blockend": "one"}
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "Notes:",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 200
+                  }
+                },
+                {
+                  "type": "TextBlock",
+                  "value": "The traveler never got rewarded for booking #12345678980123 and did not graduate to the Gold tier.",
+                  "params": {
+                    "colSpan": "all",
+                    "size": 300,
+                    "weight": "medium",
+                    "padding": {"blockend": "one"}
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
